@@ -1,16 +1,16 @@
 {
   "base": {
     "project": "some project",
-    "environment": "some env",
+    "environment": "qa.guru",
     "comment": "Any text here",
     "reportLink": "",
-    "language": "en",
+    "language": "ru",
     "messenger": "telegram",
     "allureFolder": "allure-report/",
     "enableChart": true
   },
   "telegram": {
-    "token": "5707099066:AAHmMesV_2s2pCavDd6NjyBmSqlewcZsp0g",
+    "token": "5791277238:AAGtrxWGKr1MWyUlCHviJgfkgnjwxLacIMs",
     "chat": "144281872",
     "replyTo": ""
   }

@@ -19,7 +19,9 @@ public class X5Tests extends TestBase {
         step ("Открываем 'https://www.x5.ru/'", () -> {
             open ("https://www.x5.ru/ru/");
         });
-
+        step ("Принимаем куки", () -> {
+            $ (".cookie-consent__button-group").click ();
+        });
         step ("Навести на пункт Компания", () -> {
             $ (byText ("Компания")).hover ();
         });
