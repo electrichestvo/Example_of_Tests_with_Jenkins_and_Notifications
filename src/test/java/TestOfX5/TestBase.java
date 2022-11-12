@@ -22,7 +22,7 @@ public class TestBase  {
         capabilities.setCapability("browserName", System.getProperty("browserName", "chrome"));
         capabilities.setCapability("browserVersion", System.getProperty("browserVersion", "99"));
         Configuration.browserCapabilities = capabilities;
-        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
+        Configuration.browserSize = System.getProperty("browserSize", "2560x1440");
 
         if (System.getProperty("remote") != null)
             Configuration.remote = format("https://%s:%s@%s/wd/hub", System.getProperty("user"), System.getProperty("password"), System.getProperty("remote"));

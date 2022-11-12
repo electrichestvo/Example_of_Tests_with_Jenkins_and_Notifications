@@ -17,11 +17,13 @@ public class X5Tests extends TestBase {
     @DisplayName("Проверка появления меню второго уровня для 'Компания'")
     void subCompanyMenuVisibleTest() {
         step ("Открываем 'https://www.x5.ru/'", () -> {
-            open ("https://www.x5.ru/ru/");
+            open ("https://www.x5.ru/");
         });
+        sleep (10);
         step ("Принимаем куки", () -> {
             $ (".cookie-consent__button-group").click ();
         });
+        sleep (10);
         step ("Навести на пункт Компания", () -> {
             $ (byText ("Компания")).hover ();
         });
@@ -77,10 +79,10 @@ public class X5Tests extends TestBase {
         step ("Открываем 'https://hh.ru/employer/4233'", () -> {
             open ("https://hh.ru/employer/4233");
         });
-
+        sleep (20);
         step ("Проверка отображения вакансий", () -> {
             $ (".th_vacancy_block").scrollTo ();
-            $ (".th_vacancy_block").shouldHave (text (" Вакансии компании «Х5 Group»"));
+            $ (".th_vacancy_block").shouldHave (text ("Вакансии компании «Х5 Group»"));
         });
     }
 

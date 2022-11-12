@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca987e04-e99a-4b57-8d98-d0e4c53b51e4" name="Changes" comment="New homework added">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="ca987e04-e99a-4b57-8d98-d0e4c53b51e4" name="Changes" comment="New step and information added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/allure_main_page.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/allure_main_page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jenkins_job_results.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/jenkins_job_results.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/telegram_bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/telegram_bot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/telegram.json" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestOfX5/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOfX5/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestOfX5/X5Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOfX5/X5Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestOfX5/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOfX5/helpers/Attach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PracticeForm/test.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="X5Tests.careerTestPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestOfX5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestOfX5" />
+      <option name="MAIN_CLASS_NAME" value="TestOfX5.X5Tests" />
+      <option name="METHOD_NAME" value="careerTestPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="X5Tests.subCompanyMenuVisibleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
@@ -133,6 +142,7 @@
       <list>
         <item itemvalue="JUnit.X5Tests" />
         <item itemvalue="JUnit.X5Tests.subCompanyMenuVisibleTest" />
+        <item itemvalue="JUnit.X5Tests.careerTestPage" />
         <item itemvalue="Gradle.X5Tests" />
       </list>
     </recent_temporary>
@@ -153,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668254063338</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New step and information added">
+      <created>1668257779603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668257779603</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +186,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New homework added" />
-    <option name="LAST_COMMIT_MESSAGE" value="New homework added" />
+    <MESSAGE value="New step and information added" />
+    <option name="LAST_COMMIT_MESSAGE" value="New step and information added" />
   </component>
 </project>
