@@ -43,7 +43,7 @@
 
 * browser (default chrome)
 * browserVersion (default 99.0)
-* browserSize (default 2560x1440)
+* browserSize (default 1920x1080)
 * remoteDriverUrl (url address from selenoid or grid)
 * videoStorage (url address where you should get video)
 
