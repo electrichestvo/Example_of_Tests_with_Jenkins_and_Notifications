@@ -42,8 +42,8 @@
 ### Параметры сборки в Jenkins:
 
 * browser (default chrome)
-* browserVersion (default 105.0)
-* browserSize (default 1920x1080)
+* browserVersion (default 99.0)
+* browserSize (default 2560x1440)
 * remoteDriverUrl (url address from selenoid or grid)
 * videoStorage (url address where you should get video)
 
