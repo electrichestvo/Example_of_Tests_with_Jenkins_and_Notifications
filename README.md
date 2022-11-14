@@ -10,6 +10,7 @@
 - [Отчет в Telegram](#-уведомление-в-telegram-при-помощи-бота)
 - [Видео примеры прохождения тестов](#-примеры-видео-о-прохождении-тестов)
 
+
 # Технологии и инструменты
 
 <p align="center">
@@ -24,13 +25,15 @@
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
+
 # Реализованные проверки
 
-- ✓ Проверка отображения второго уровня меню для подпункта 'Компания' на главной странице.
-- ✓ Проверка отображения второго уровня меню для подпункта 'Карьера' на главной странице.
-- ✓ Проверка смены языка на EN на сайте Х5.
-- ✓ Проверка отображения страницы с вакансиями компании на сайте Х5.
-- ✓ Проверка отображения вакансий Х5 на сайте HH.
+- Проверка отображения второго уровня меню для подпункта 'Компания' на главной странице.
+- Проверка отображения второго уровня меню для подпункта 'Карьера' на главной странице.
+- Проверка смены языка на EN на сайте Х5.
+- Проверка отображения страницы с вакансиями компании на сайте Х5.
+- Проверка отображения вакансий Х5 на сайте HH.
+
 
 ## <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 
@@ -39,13 +42,15 @@
 <a href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15/"><img src="images/jenkins_job_results.png" alt="Jenkins"/></a>
 </p>
 
+
 ### Параметры сборки в Jenkins:
 
 * browser (default chrome)
-* browserVersion (default 105.0)
+* browserVersion (default 99.0)
 * browserSize (default 1920x1080)
 * remoteDriverUrl (url address from selenoid or grid)
 * videoStorage (url address where you should get video)
+
 
 # Запуск тестов из терминала
 
@@ -63,6 +68,7 @@ clean test
 -Dselenide.remote=${REMOTE_URL}
 ```
 
+
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15/10/allure/">Allure report</a>
 
 
@@ -72,11 +78,13 @@ clean test
 </p>
 
 
+
 ## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/telegram_bot.png">
 </p>
+
 
 ### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Пример видео о прохождении тестов
 
