@@ -35,11 +35,10 @@
 
 # <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 
-<a target="_blank" href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15//">Сборка в Jenkins</a>
+<a target="_blank" href="https:///">Сборка в Jenkins</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15/"><img src="images/jenkins_job_results.png" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/qa_guru_15_15"><img src="images/jenkins_job_results2.png" alt="Jenkins"/></a>
 </p>
-
 
 # Параметры сборки в Jenkins:
 
@@ -67,7 +66,7 @@ clean test
 ```
 
 
-# <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15/10/allure/">Allure report</a>:
+# <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_15_15/8/allure/">Allure report</a>:
 
 
 
