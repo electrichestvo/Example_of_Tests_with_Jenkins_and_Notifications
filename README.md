@@ -37,7 +37,7 @@
 
 <a target="_blank" href="https:///">Сборка в Jenkins</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/qa_guru_15_15"><img src="images/jenkins_job_results2.png" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/qa_guru_15_15/"><img src="images/jenkins_job_results2.png" alt="Jenkins"/></a>
 </p>
 
 # Параметры сборки в Jenkins:
