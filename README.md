@@ -41,7 +41,7 @@
 </p>
 
 
-### Параметры сборки в Jenkins:
+# Параметры сборки в Jenkins:
 
 * browser (default chrome)
 * browserVersion (default 99.0)
@@ -56,7 +56,7 @@
 gradle clean test
 ```
 
-### Команды удаленного запуска:
+# Команды удаленного запуска:
 
 ```bash
 clean test
@@ -67,7 +67,7 @@ clean test
 ```
 
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15/10/allure/">Allure report</a>
+# <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15/10/allure/">Allure report</a>
 
 
 
@@ -77,14 +77,14 @@ clean test
 
 
 
-## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление с результатами тестов в Telegram при помощи бота
+# <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление с результатами тестов в Telegram при помощи бота
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/telegram_bot.png">
 </p>
 
 
-### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Пример прохождения тестов
+# <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Пример прохождения тестов
 
 <p align="center">
  <img title="Selenoid Video" src="images/test_video.gif" width="250" height="153"  alt="video"> 
