@@ -33,7 +33,7 @@
 - 5. Проверка отображения вакансий Х5 на сайте HH.
 
 
-## <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
+# <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 
 <a target="_blank" href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15//">Сборка в Jenkins</a>
 <p align="center">
