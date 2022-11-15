@@ -43,9 +43,9 @@
 
 # Параметры сборки в Jenkins:
 
-* browser (default chrome)
-* browserVersion (default 99.0)
-* browserSize (default 1920x1080)
+* browser (default chrome, also safari ; firefox)
+* browserVersion (default 99.0, 100.00)
+* browserSize (default 1920x1080, 1024х768)
 * remoteDriverUrl (url address from selenoid or grid)
 * videoStorage (url address where you should get video)
 
@@ -67,7 +67,7 @@ clean test
 ```
 
 
-# <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15/10/allure/">Allure report</a>
+# <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Ponomarev_DZ_15/10/allure/">Allure report</a>:
 
 
 
@@ -77,16 +77,16 @@ clean test
 
 
 
-# <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление с результатами тестов в Telegram при помощи бота
+# <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление с результатами тестов в Telegram:
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/telegram_bot.png">
 </p>
 
 
-# <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Пример прохождения тестов
+# <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> GIF прохождения тестов:
 
 <p align="center">
- <img title="Selenoid Video" src="images/test_video.gif" width="250" height="153"  alt="video"> 
+ <img title="Selenoid Video" src="images/test_video.gif" width="700" height="394"  alt="video"> 
 </p>
 

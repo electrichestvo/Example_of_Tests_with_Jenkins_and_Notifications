@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca987e04-e99a-4b57-8d98-d0e4c53b51e4" name="Changes" comment="Minor improvements">
+    <list default="true" id="ca987e04-e99a-4b57-8d98-d0e4c53b51e4" name="Changes" comment="Minor improvements of readme 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668537477069</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Minor improvements of readme">
+      <created>1668537731320</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668537731320</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Minor improvements of readme 2">
+      <created>1668537785275</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668537785275</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,9 +237,10 @@
     <MESSAGE value="New step and information added" />
     <MESSAGE value="New minor improvements - new resolution; new actions in tests" />
     <MESSAGE value="New screenshot added" />
-    <MESSAGE value="Minor improvements of readme" />
     <MESSAGE value="New homework" />
     <MESSAGE value="Minor improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor improvements" />
+    <MESSAGE value="Minor improvements of readme" />
+    <MESSAGE value="Minor improvements of readme 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor improvements of readme 2" />
   </component>
 </project>
