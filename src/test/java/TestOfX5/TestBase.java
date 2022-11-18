@@ -21,7 +21,7 @@ public class TestBase  {
         capabilities.setCapability("browserVersion", System.getProperty("browserVersion", "99"));
         Configuration.browserCapabilities = capabilities;
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
-        Configuration.remote=System.getProperty("remote"));
+        Configuration.remote=System.getProperty("remote");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
     }
