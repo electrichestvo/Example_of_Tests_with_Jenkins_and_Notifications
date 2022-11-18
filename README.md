@@ -60,8 +60,6 @@ gradle clean test
 -DbrowserName=${BROWSER_NAME}
 -DbrowserVersion=${BROWSER_VERSION}
 -DbrowserSize=${BROWSER_SIZE}
--Duser=${LOGIN}
--Dpassword=${PASSWORD}
 -Dremote=${REMOTE_URL}
 ```
 
