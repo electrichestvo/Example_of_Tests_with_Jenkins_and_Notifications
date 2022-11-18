@@ -22,8 +22,8 @@ public class TestBase  {
         capabilities.setCapability("browserName", System.getProperty("browserName", "chrome"));
         capabilities.setCapability("browserVersion", System.getProperty("browserVersion", "99"));
         Configuration.browserCapabilities = capabilities;
-        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
-
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1800");
+        Configuration.remote = System.getProperty("remote", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
     }
