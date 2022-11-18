@@ -56,11 +56,11 @@ gradle clean test
 # Команды удаленного запуска:
 
 ```bash
-clean test
--Dbrowser_name=${BROWSER_NAME}
--Dbrowser_version=${BROWSER_VERSION}
--Dbrowser_size=${BROWSER_SIZE} 
--Dselenide.remote=${REMOTE_URL}
+clean test 
+-DbrowserName=${BROWSER_NAME}
+-DbrowserVersion=${BROWSER_VERSION}
+-DbrowserSize=${BROWSER_SIZE}
+-Dremote=${REMOTE_URL}
 ```
 
 

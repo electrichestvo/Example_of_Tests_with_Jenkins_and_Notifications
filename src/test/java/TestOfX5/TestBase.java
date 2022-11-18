@@ -17,14 +17,11 @@ public class TestBase  {
     static void configure() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "99");
+        capabilities.setCapability("browserName", System.getProperty("browserName", "chrome"));
+        capabilities.setCapability("browserVersion", System.getProperty("browserVersion", "99"));
         Configuration.browserCapabilities = capabilities;
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
-
-        if (System.getProperty("remote") != null)
-            Configuration.remote = format("https://%s:%s@%s/wd/hub", System.getProperty("user"), System.getProperty("password"), System.getProperty("remote"));
-
+        Configuration.remote=System.getProperty("remote"));
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
     }
