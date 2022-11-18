@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca987e04-e99a-4b57-8d98-d0e4c53b51e4" name="Changes" comment="Minor improvements of readme 3">
+    <list default="true" id="ca987e04-e99a-4b57-8d98-d0e4c53b51e4" name="Changes" comment="edited testbase">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestOfX5/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOfX5/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestOfX5/X5Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOfX5/X5Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +228,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668538961269</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Minor improvements test of test steps + removed extra lines from">
+      <created>1668771477456</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668771477456</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added forgotten line">
+      <created>1668775644236</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668775644236</updated>
+    </task>
+    <task id="LOCAL-00013" summary="edited testbase">
+      <created>1668776952847</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668776952847</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +273,9 @@
     <MESSAGE value="Minor improvements of readme" />
     <MESSAGE value="Minor improvements of readme 2" />
     <MESSAGE value="Minor improvements of readme 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor improvements of readme 3" />
+    <MESSAGE value="Minor improvements test of test steps + removed extra lines from" />
+    <MESSAGE value="Added forgotten line" />
+    <MESSAGE value="edited testbase" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited testbase" />
   </component>
 </project>

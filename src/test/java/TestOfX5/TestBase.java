@@ -18,7 +18,7 @@ public class TestBase  {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         DesiredCapabilities capabilities = new DesiredCapabilities();
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "100");
+        Configuration.browserVersion = System.getProperty("browserVersion", "99");
         Configuration.browserCapabilities = capabilities;
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
 
